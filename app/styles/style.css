@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #534040;
+}
+
+/* Utilidaes */
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+.header-container{
+    height: 10rem;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32302f;
+    color: #fee5b9;
+}
+.btn-travel{
+    background-color: #90c8bb;
+    color: #32302f;
+}
+
+.btn-travel:hover{
+    background-color: #90c8bb;
+    color: #32302f;
+}
+
+/* Main */
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+} 
+
+::-webkit-scrollbar-track{
+    background: #2d2733;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #dcbfff;
+}
+
+.world-map{
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    min-height: 30em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: #262626;
+}
+
+svg{
+    width: 100vw;
+    height: 100vh;
+}
+
+path{
+    fill: #373432;
+    stroke: #ffffff;
+    transition: 100ms;
+}
+
+path:hover{
+    fill: #ffffff;
+}
