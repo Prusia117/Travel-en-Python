@@ -26,6 +26,8 @@ Este proyecto es una aplicación interactiva que permite visualizar rutas entre 
 2. Instala las dependencias del backend:
    ```bash
     cd api
+    python -m venv .venv
+    .venv\Scripts\activate
     pip install Flask
    ```
 
