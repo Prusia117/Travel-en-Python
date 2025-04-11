@@ -4,7 +4,7 @@ Este proyecto es una aplicación interactiva que permite visualizar rutas entre 
 
 ## Características
 
-- **Mapa interactivo**: Selecciona dos países y visualiza la ruta más corta entre ellos.
+- **Mapa interactivo**: Escribe dos países y visualiza la ruta más corta entre ellos.
 - **Algoritmo de Dijkstra**: Calcula la distancia más corta entre dos países.
 - **Interfaz amigable**: Utiliza Bootstrap para un diseño moderno y responsivo.
 - **Notificaciones**: Alertas interactivas con SweetAlert para errores y confirmaciones.
