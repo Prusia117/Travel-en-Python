@@ -29,7 +29,7 @@ Este proyecto es una aplicación interactiva que permite visualizar rutas entre 
     python -m venv .venv
     .venv\Scripts\activate
     pip install Flask
-    pip install Flask
+    pip install flask-cors
    ```
 
 3. Inicia la api:
